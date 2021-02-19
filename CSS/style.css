@@ -1,0 +1,121 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.heroLink:hover {
+    font-weight: bold !important;
+    /* text-decoration: none !important; */
+}
+a {
+    color: black !important;
+}
+a:hover{
+    font-weight: bold;
+    text-decoration: underline !important;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #A24F1A;
+}
+.navbar {
+    padding: 48px !important;
+    /* background-color: red; */
+}
+.logo {
+    padding-right: 30px;
+}
+.dropdown-toggle::after {
+    content: none !important;
+    }
+button.navbar-toggler.ml-auto.hidden-sm-up.float-xs-right:focus {
+    outline: none!important;
+}
+
+@media only screen and (max-width: 800px) {
+.navRight {
+    display: none;
+}
+  }
+
+
+h1 {
+    /* font-weight: bold; */
+    font-size: 35px;
+    /* color: #A24F1A; */
+    color: white;
+
+}
+/* .heroImage {
+    left: 0px;
+    top: 121px;
+} */
+/* .heroText {
+    position: absolute;
+    top: 550px;
+    left: 87px;
+    background-color: red;
+} */
+
+/* .CAT {
+    padding-top: 35rem;
+    display: block;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+.cat1:hover {
+    opacity: 0.5;
+} */
+li {
+    display: inline;
+    list-style-type: none;
+    float: left;
+}
+.bottom {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* p1 {
+    margin-left: 87px;
+} */
+/* .joinLife {
+    padding-top: 70px;
+} */
+#joinImg:hover {
+    content: url(/images/joinlifecollectionhover.png);
+    text-decoration: none !important;
+}
+.collection {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+#heroImg:hover {
+    content: url(/images/herohover.png) !important;
+}
+.categories {
+    padding-bottom: 50px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.heroImage {
+    padding-bottom: 50px;
+    display: flex !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.collectionText {
+    padding-left: 87px;
+}
+
+#women:hover {
+    content: url(/images/womenhover.png) !important;
+}
+#men:hover {
+    content: url(/images/menhover.png) !important;
+}
+#kids:hover {
+    content: url(/images/kidshover.png) !important;
+}
