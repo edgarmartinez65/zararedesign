@@ -152,6 +152,11 @@ li {
 .lifeMobile {
     display: none;
 }
+.shopSearch {
+    display: none;
+}
+
+
 @media only screen and (max-width: 800px) {
     .navRight {
         display: none;
@@ -200,8 +205,19 @@ li {
     padding: 10px !important;
     margin-right: 15px;
     margin-left: 15px;
+    }
+/* #search {
+    display: inline;
+    padding-left: 20px !important;
+} */
+.shopSearch {
+    display: block;
+    padding-right: 20px;
 }
-
+#search {
+    display: inline;
+    margin-right: 20px;
+}
 
 }
 .nav-link:focus {
