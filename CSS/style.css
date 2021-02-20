@@ -195,7 +195,12 @@ li {
     .footer a {
        font-size: 10px;
     }
-
+.navbar {
+    /* background: tomato; */
+    padding: 10px !important;
+    margin-right: 15px;
+    margin-left: 15px;
+}
 
 
 }
