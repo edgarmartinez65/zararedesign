@@ -112,6 +112,12 @@ li {
 #kids:hover {
     content: url(../images/kidshover.png) !important;
 }
+#women {
+    padding-right: 7px;
+}
+#men {
+    padding-right: 7px;
+}
 .viewMore {
     display: flex !important;
     padding-right: 33px;
