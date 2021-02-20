@@ -76,7 +76,7 @@ li {
     padding-top: 70px;
 } */
 #joinImg:hover {
-    content: url(/images/joinlifecollectionhover.png);
+    content: url(../images/joinlifecollectionhover.png);
     text-decoration: none !important;
 }
 .collection {
@@ -85,7 +85,7 @@ li {
     margin-right: auto;
 }
 #heroImg:hover {
-    content: url(/images/herohover.png) !important;
+    content: url(../images/herohover.png) !important;
 }
 .categories {
     padding-bottom: 50px;
@@ -104,13 +104,13 @@ li {
 }
 
 #women:hover {
-    content: url(/images/womenhover.png) !important;
+    content: url(../images/womenhover.png) !important;
 }
 #men:hover {
-    content: url(/images/menhover.png) !important;
+    content: url(../images/menhover.png) !important;
 }
 #kids:hover {
-    content: url(/images/kidshover.png) !important;
+    content: url(../images/kidshover.png) !important;
 }
 .viewMore {
     display: flex !important;
