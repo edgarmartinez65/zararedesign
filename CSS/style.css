@@ -187,3 +187,17 @@ li {
 
 
 }
+.nav-link:focus {
+    outline: none !important;
+}
+.navbar-toggler {
+    border: none;
+}
+
+/* .navbar-light {
+    background-image: url(../images/men.png);
+} */
+
+.navbar-toggler-icon {
+    background-image: url(../images/mobilemenu.svg) !important;
+}
