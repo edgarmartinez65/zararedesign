@@ -68,14 +68,14 @@ h1 {
 } */
 li {
     display: inline;
-    list-style-type: none;
+    /* list-style-type: none; */
     float: left;
 }
-.bottom {
+/* .bottom {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 /* p1 {
     margin-left: 87px;
 } */
@@ -118,4 +118,29 @@ li {
 }
 #kids:hover {
     content: url(/images/kidshover.png) !important;
+}
+.viewMore {
+    display: flex !important;
+    padding-right: 33px;
+    padding-top: 22px;
+    padding-bottom: 33px;
+}
+
+/* .bottomRow {
+    display: flex !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+} */
+
+#help {
+    padding: 20px;
+}
+#follow {
+    padding: 20px;
+}
+#company {
+    padding: 20px;
+}
+#policies {
+    padding: 20px;
 }
