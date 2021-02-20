@@ -1,92 +1,54 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+h1 {
+    font-size: 35px;
+    color: white;
 
-.heroLink:hover {
-    font-weight: bold !important;
-    /* text-decoration: none !important; */
+}
+li {
+    display: inline;
+    float: left;
 }
 a {
     color: black !important;
 }
+
+/* Hover Effects */
+.heroLink:hover {
+    font-weight: bold !important;
+}
+
 a:hover{
     font-weight: bold;
     text-decoration: underline !important;
     text-decoration-thickness: 3px;
     text-decoration-color: #A24F1A;
 }
-.navbar {
-    padding: 48px !important;
-    /* background-color: red; */
-}
-.logo {
-    padding-right: 30px;
-}
-.dropdown-toggle::after {
-    content: none !important;
-    }
-button.navbar-toggler.ml-auto.hidden-sm-up.float-xs-right:focus {
-    outline: none!important;
-}
-
-h1 {
-    /* font-weight: bold; */
-    font-size: 35px;
-    /* color: #A24F1A; */
-    color: white;
-
-}
-/* .heroImage {
-    left: 0px;
-    top: 121px;
-} */
-/* .heroText {
-    position: absolute;
-    top: 550px;
-    left: 87px;
-    background-color: red;
-} */
-
-/* .CAT {
-    padding-top: 35rem;
-    display: block;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    min-height: 100vh;
-}
-.cat1:hover {
-    opacity: 0.5;
-} */
-li {
-    display: inline;
-    /* list-style-type: none; */
-    float: left;
-}
-/* .bottom {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-} */
-/* p1 {
-    margin-left: 87px;
-} */
-/* .joinLife {
-    padding-top: 70px;
-} */
 #joinImg:hover {
     content: url(../images/joinlifecollectionhover.png);
     text-decoration: none !important;
 }
+#heroImg:hover {
+    content: url(../images/herohover.png) !important;
+}
+#women:hover {
+    content: url(../images/womenhover.png) !important;
+}
+#men:hover {
+    content: url(../images/menhover.png) !important;
+}
+#kids:hover {
+    content: url(../images/kidshover.png) !important;
+}
+
+/* Divs */
 .collection {
     display: flex;
     margin-left: auto;
     margin-right: auto;
 }
-#heroImg:hover {
-    content: url(../images/herohover.png) !important;
-}
+
 .categories {
     padding-bottom: 50px;
     display: flex;
@@ -102,16 +64,6 @@ li {
 .collectionText {
     padding-left: 87px;
 }
-
-#women:hover {
-    content: url(../images/womenhover.png) !important;
-}
-#men:hover {
-    content: url(../images/menhover.png) !important;
-}
-#kids:hover {
-    content: url(../images/kidshover.png) !important;
-}
 #women {
     padding-right: 7px;
 }
@@ -125,12 +77,32 @@ li {
     padding-bottom: 33px;
 }
 
-/* .bottomRow {
-    display: flex !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-} */
+/* Nav items */
+.nav-link:focus {
+    outline: none !important;
+}
+.navbar-toggler {
+    border: none;
+}
 
+.navbar-toggler-icon {
+    background-image: url(../images/mobilemenu.svg) !important;
+
+}
+.navbar {
+    padding: 40px !important;
+}
+.logo {
+    padding-right: 30px;
+}
+.dropdown-toggle::after {
+    content: none !important;
+    }
+button.navbar-toggler.ml-auto.hidden-sm-up.float-xs-right:focus {
+    outline: none!important;
+}
+
+/* Footer */
 #help {
     padding: 20px;
 }
@@ -143,6 +115,9 @@ li {
 #policies {
     padding: 20px;
 }
+
+/* Mobile */
+
 .heroMobile {
     display: none;
 }
@@ -155,7 +130,6 @@ li {
 .shopSearch {
     display: none;
 }
-
 
 @media only screen and (max-width: 800px) {
     .navRight {
@@ -198,40 +172,22 @@ li {
         padding-bottom: 10px;
     }
     .footer a {
-       font-size: 18px;
+       font-size: 10px;
     }
-.navbar {
-    /* background: tomato; */
+
+    .navbar {
     padding: 10px !important;
     margin-right: 15px;
     margin-left: 15px;
     }
-/* #search {
-    display: inline;
-    padding-left: 20px !important;
-} */
-.shopSearch {
+
+    .shopSearch {
     display: block;
     padding-right: 20px;
-}
-#search {
+    }
+
+    #search {
     display: inline;
     margin-right: 20px;
-}
-
-}
-.nav-link:focus {
-    outline: none !important;
-}
-.navbar-toggler {
-    border: none;
-}
-
-/* .navbar-light {
-    background-image: url(../images/men.png);
-} */
-
-.navbar-toggler-icon {
-    background-image: url(../images/mobilemenu.svg) !important;
-
+    }
 }
