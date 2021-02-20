@@ -29,13 +29,6 @@ button.navbar-toggler.ml-auto.hidden-sm-up.float-xs-right:focus {
     outline: none!important;
 }
 
-@media only screen and (max-width: 800px) {
-.navRight {
-    display: none;
-}
-  }
-
-
 h1 {
     /* font-weight: bold; */
     font-size: 35px;
@@ -143,4 +136,54 @@ li {
 }
 #policies {
     padding: 20px;
+}
+.heroMobile {
+    display: none;
+}
+.catMobile {
+    display: none;
+}
+.lifeMobile {
+    display: none;
+}
+@media only screen and (max-width: 800px) {
+    .navRight {
+        display: none;
+    }
+    .hero {
+        display: none;
+    }
+    .CAT {
+        display: none;
+    }
+    .joinLife {
+        display: none;
+    }
+    .heroMobile {
+        display: block;
+        padding-bottom: 10px;
+    }
+    .catMobile {
+        display: block;
+        padding-bottom: 10px;
+    }
+    .lifeMobile {
+        display: block;
+        padding-bottom: 10px;
+    }
+    #womenmobile {
+        padding-bottom: 10px;
+    }
+    #menmobile {
+        padding-bottom: 10px;
+    }
+    #kidsmobile {
+        padding-bottom: 10px;
+    }
+    .footer a {
+       font-size: 10px;
+    }
+
+
+
 }
